@@ -1,0 +1,10 @@
+.miClase {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: blue;
+    background-color: #c9c3c3;
+    border-radius: 10px;
+    border: solid 1px blueviolet;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
