@@ -1,6 +1,75 @@
 :host{
-    background-color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #c4cff1;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 40%;
+    float: right;
+    margin-right: 540px;
+    margin-top: 20vh;
+         
+}
+
+.my-title {
+    margin-bottom: 100px;
+    background-color: #c4cff1;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;       
+}
+
+.my-subtitle {
+    background-color:#c4cff1;
+    margin-bottom: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.login {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inp-login {
+    height: 30px;
+    border-radius: 4px;
+    border: solid 2px #4646f8;
+    background-color: blanchedalmond;
+}
+
+.inp-login:hover {
+    box-shadow: 0px 0px 2px 1px #4646f8
+}
+
+.but-login {
+    height: 35px;
+    width: 100px;
+    border-radius: 16px;
+    background: #3930ad;
+    border: solid 2px #4646f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    margin-left: 3px;
+    color: white;
+}
+
+.but-login:hover {
+    cursor: pointer;
+}
+
+.but-login:active {
+    transform: translateY(2px);
+}
+
+.eye {
+    height: 25px   
+
+}
+
+.eye:hover {
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 15px;
 }

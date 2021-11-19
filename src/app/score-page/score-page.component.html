@@ -1,1 +1,27 @@
-<p>score-page works!</p>
+<div class="header-container">
+    <app-tittle>[tittleText]=""
+    </app-tittle>
+    <app-option-button [buttonText]="'Regresar'" (externalButtonAction)="goToGame()">
+    </app-option-button>
+</div>
+<div class="score-container">
+    Tabla de posiciones
+</div>
+<div class="trivia-container">
+    
+    <div class="player-container">
+        <span>
+            # - 
+            Nombre
+        </span>
+
+        <span>
+            Puntos
+        </span>
+    </div>
+</div>
+<div>
+    <app-playercontainer *ngFor="let player of scoreService.players"[player]="player">
+
+    </app-playercontainer>
+</div>

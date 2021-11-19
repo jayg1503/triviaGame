@@ -1,6 +1,17 @@
-<h1>Trivia</h1>
+<div class="my-title">Trivia </div>
+<!-- <app-tittle>[tittleText]=""</app-tittle> -->
 
-<h2>Ingresa tu nombre</h2>
+<div class="my-subtitle">
+    Ingresa tu nombre:
+</div>
 
-<input type="text" [(ngModel)]="userName">
-<button (click)="onUserNameCreate()">Aceptar</button>
+<div class="login">
+    <input class="inp-login" type="text" [(ngModel)]="userName">
+</div>
+
+<div class="login">
+    <input class="inp-login" type="password" [(ngModel)]="userPassword">
+    <img class="eye" src="../../assets/eye-outline.svg" alt="">
+    <button class="but-login"(click)="onUserNameCreate()">Ingresar</button>
+</div>
+

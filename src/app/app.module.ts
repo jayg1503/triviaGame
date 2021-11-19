@@ -8,6 +8,11 @@ import { AnswerButtonComponent } from './answer-button/answer-button.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { GamePageComponent } from './game-page/game-page.component';
 import { ScorePageComponent } from './score-page/score-page.component';
+import { OptionButtonComponent } from './option-button/option-button.component';
+import { TittleComponent } from './tittle/tittle.component';
+import { PlayercontainerComponent } from './playercontainer/playercontainer.component';
+import { HttpClientModule } from '@angular/common/http' 
+
 
 @NgModule({
   declarations: [
@@ -15,12 +20,16 @@ import { ScorePageComponent } from './score-page/score-page.component';
     AnswerButtonComponent,
     LoginPageComponent,
     GamePageComponent,
-    ScorePageComponent
+    ScorePageComponent,
+    OptionButtonComponent,
+    TittleComponent,
+    PlayercontainerComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,23 @@
-p {
+.button-container {
     color: white;
-    background-color: cadetblue;
+    background: #5d57a8;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: solid 1px green;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.button-container:active {
+    background: red;
+    
+}
+
+.button-container:hover {
+    cursor: pointer;
+    background: #3930ad;
+    font-weight: bold;
 }

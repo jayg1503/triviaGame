@@ -1,0 +1,24 @@
+.but-login {
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    border: solid 2px #4646f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:600;
+    margin-left: 3px;
+}
+
+.op-btn {
+    background-color: #7774a5;
+}
+
+.op-btn:hover {
+    cursor: pointer;
+    background-color: #3930ad;
+    color: white
+    
+}
+.op-btn:active {
+    transform: translateY(4px);
+}

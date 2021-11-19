@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ScoreService } from '../score.service';
 
 @Component({
   selector: 'app-score-page',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScorePageComponent implements OnInit {
 
-  constructor() { }
+  router:Router
+  scoreService: ScoreService
+
+  constructor( router: Router, scoreService: ScoreService ) {
+    this.router = router
+    this.scoreService=scoreService
+  }
 
   ngOnInit(): void {
   }
-
+  
+  goToGame() {
+    this.router.navigateByUrl('/game');
+  }
 }
